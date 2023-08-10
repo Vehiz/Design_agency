@@ -27,7 +27,7 @@ const Hero = () => {
           <img src={HeaderLady1} alt="ladyImage" />
         </div>
       </div>
-      <div className="flex justify-center space-x-20 content-between py-8 bg-[#F8FFF9]">
+      <div className="flex justify-center space-x-20 content-between py-8 my-8 bg-[#F8FFF9]">
         <img src={logos_google} alt="google" />
         <img src={logos_monday} alt="monday" />
         <img src={Notion} alt="notion" />
