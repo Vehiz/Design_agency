@@ -12,13 +12,13 @@ const Portfolio2 = () => {
           <p className="text-[#20B15A] py-4">OUR PORTFOLIO</p>
           <p className="text-[#000000] text-[30px] font-semibold leading-[32px]">
             We provide the perfect solution
-            <br /> to your business growth
+            <br/> to your business growth
           </p>
         </div>
-        <div className=" grid grid-cols-2 gap-40px place-content-center px-10">
-          <div className="w-[400px]">
+        <div className=" flex w-[1200px] flex-wrap justify-center place-content-center px-1">
+          <div className="w-[400px] mr-[40px] mt-[60px]">
             <img className="" src={Screenshot0} alt="" />
-            <p className="text-[23px] font-semibold">Digital Marketing Agency Website</p>
+            <p className="text-[23px] font-semibold mt-[40px]">Digital Marketing Agency Website</p>
             <p>
               This is a website for a client who want to acheive their goals and
               meet their
@@ -26,9 +26,9 @@ const Portfolio2 = () => {
               platforms. This is a<br /> website rebrand
             </p>
           </div>
-          <div className="w-[400px]">
+          <div className="w-[400px] mt-[60px]">
             <img className="" src={Screenshot1} alt="" />
-            <p className="text-[23px] font-semibold">Digital Marketing Agency Website</p>
+            <p className="text-[23px] font-semibold mt-[40px]">Digital Marketing Agency Website</p>
             <p>
               This is a website for a client who want to acheive their goals and
               meet their
@@ -36,9 +36,9 @@ const Portfolio2 = () => {
               platforms. This is a<br /> website rebrand
             </p>
           </div>
-          <div className="w-[400px]">
+          <div className="w-[400px] mr-[40px]">
             <img src={Screenshot2} alt="" />
-            <p  className="text-[23px] font-semibold">Digital Marketing Agency Website</p>
+            <p  className="text-[23px] font-semibold mt-[40px]">Digital Marketing Agency Website</p>
             <p>
               This is a website for a client who want to acheive their goals and
               meet their
@@ -47,8 +47,8 @@ const Portfolio2 = () => {
             </p>
           </div>
           <div className="w-[400px]" >
-            <img className='' src={Screenshot3} alt="" />
-            <p  className="text-[23px] font-semibold">Digital Marketing Agency Website</p>
+            <img className='mt-[125px]' src={Screenshot3} alt="" />
+            <p  className="text-[23px] font-semibold mt-[40px]">Digital Marketing Agency Website</p>
             <p>
               This is a website for a client who want to acheive their goals and
               meet their
@@ -56,6 +56,7 @@ const Portfolio2 = () => {
               platforms. This is a<br /> website rebrand
             </p>
           </div>
+          
         </div>
       </div>
     </div>
