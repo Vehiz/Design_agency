@@ -8,31 +8,35 @@ import Trello from "../assets/Trello-logo-blue1.png";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col bg-[#D7F5DC] w-full h-screen">
-      <div className="flex h-[700px] justify-between items-center px-8">
-        <div className="space-y-4">
+    <div className="flex flex-col bg-[#D7F5DC] overflow-hidden max-w-[1440px] overflow-hidden h-screen">
+      <div className="flex h-[700px] justify-around items-center px-[40px]">
+        <div className=" w-[50%] p-[60px] space-y-4">
           <p className="flex text-[#000000] justify-between font-bold text-6xl items-center space-x-6">
-            Increase Your Customers Loyalty and Satisfaction
+            Increase Your
+            <br /> Customers Loyalty
+            <br /> and Satisfaction
           </p>
           <p className="font-normal font-medium">
             We help businesses like yours earn more customers,
             <br />
             standout from competitors, make more money
           </p>
-          <button className="bg-[#20B15A] text-[#FFFFFF] px-4 py-1 rounded-md">
+          <button className="bg-[#20B15A] text-[20px] text-[#FFFFFF] px-[30px] py-[20px] mt-[37px] rounded-[16px]">
             Get Started
           </button>
         </div>
-        <div>
-          <img src={HeaderLady1} alt="ladyImage" />
+        <div className="w-[672px] h-[560px] justify-center items-center pt-[40px] pr-[40px] mt-[39px]">
+          <img className="h-[564px]" src={HeaderLady1} alt="ladyImage" />
         </div>
       </div>
-      <div className="flex justify-center space-x-20 content-between py-8 my-8 bg-[#F8FFF9]">
-        <img src={logos_google} alt="google" />
-        <img src={logos_monday} alt="monday" />
-        <img src={Notion} alt="notion" />
-        <img src={Slack} alt="slack" />
-        <img src={Trello} alt="trello" />
+      <div className="flex flex-col h-[135px] justify-center items-center">
+        <div className="flex w-[1440px] h-[120px] justify-around items-center overflow-x-auto pl-[115px] pr-[143px] my-8 bg-[#F8FFF9]">
+          <img src={logos_google} alt="google" />
+          <img src={logos_monday} alt="monday" />
+          <img src={Notion} alt="notion" />
+          <img src={Slack} alt="slack" />
+          <img src={Trello} alt="trello" />
+        </div>
       </div>
     </div>
   );
